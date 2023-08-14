@@ -1,11 +1,11 @@
-const epxress = require("express");
+const express = require("express");
 
 const api = express();
 
 api.get('/', () => {
-    resizeBy.json{(message: "Bem vindoa a nossa API")}
+    res.json({message: "Bem vindoa a nossa API"})
 });
 
 api.listen(3000,  () =>{
-    res.json{(message: )}
-})
+    console.log({message: "Servidor subiu na porta 3000. http://localhost:3000"})
+});
