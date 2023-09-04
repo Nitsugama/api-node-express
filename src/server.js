@@ -15,7 +15,7 @@ api.get('/', (req, res) => {
     res.json({message: "Bem vindoa a nossa API"})
 });
 
-api.use('/products', productRouter);
+api.use('/produto', productRouter);
 api.use('/user', userRouter);
 api.use('/auth', loginRouter,);
 
